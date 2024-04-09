@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(165, 218, 200);
+}
+h1 {
+    color: rgb(251, 161, 176);/*Pink for text color*/
+    font-size: 4em;/*Large font size so it would cover most of the page*/
+}
+
+h2 {
+    color: rgb(251, 161, 176);/*Light pink for the text color*/
+    font-size: 2.5em ;
+}
+
+/*Styles for the buttoms*/
+#noun1,
+#verb,
+#adjective,
+#noun2,
+#setting,
+#playback,
+#random{
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: rgb(176, 201, 254);
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+/*Styles for the paragraphs*/
+p{
+    margin: 0;
+    color: rgb(46, 106, 159);
+}
+
+/*Styles for section*/
+section{
+    margin-bottom: 20px;
+}
+
+/*Style for the story dispaly*/
+#story {
+    font-style: italic;
+}
